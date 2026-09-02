@@ -1,0 +1,26 @@
+# Patrick Star Custom Theme by grepmykeys
+
+# Background+foreground colors + cursor
+background = #120711
+foreground = #e1d2e0
+cursor-color = #b2de92
+
+# Standard colors
+palette = 0=#120711
+palette = 1=#856eb7
+palette = 2=#aa7ace
+palette = 3=#9d6fa9
+palette = 4=#cb75bd
+palette = 5=#ab6692
+palette = 6=#cf7496
+palette = 7=#e1d2e0
+
+# Bright colors
+palette = 8=#676266
+palette = 9=#ac8eeb
+palette = 10=#cd95f9
+palette = 11=#c68fd9
+palette = 12=#f38ee3
+palette = 13=#d786be
+palette = 14=#fa8cb5
+palette = 15=#fbf2fa
