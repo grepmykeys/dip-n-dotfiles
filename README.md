@@ -10,6 +10,7 @@ Use this repo with [chezmoi](https://www.chezmoi.io/) to track and reapply your 
 2. Initialize this repo as your source state:
    - `chezmoi init https://github.com/grepmykeys/dip-n-dotfiles.git` (or SSH: `git@github.com:grepmykeys/dip-n-dotfiles.git`)
 3. Add the dotfiles you want to keep (especially from `~/.config`):
+   - Before you add anything, double-check it doesn’t include secrets (tokens, API keys, private keys). Consider `chezmoi add --encrypt` for sensitive files and/or `.chezmoiignore` to exclude them.
    - `chezmoi add ~/.zshrc`
    - `chezmoi add ~/.gitconfig`
    - `chezmoi add ~/.config/nvim`
