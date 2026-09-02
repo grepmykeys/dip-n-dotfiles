@@ -8,7 +8,7 @@ Use this repo with [chezmoi](https://www.chezmoi.io/) to track and reapply your 
    - macOS (Homebrew): `brew install chezmoi`
    - Linux (script): `sh -c "$(curl -fsLS get.chezmoi.io)"`
 2. Initialize this repo as your source state:
-   - `chezmoi init git@github.com:grepmykeys/dip-n-dotfiles.git`
+   - `chezmoi init https://github.com/grepmykeys/dip-n-dotfiles.git` (or SSH: `git@github.com:grepmykeys/dip-n-dotfiles.git`)
 3. Add the dotfiles you want to keep (especially from `~/.config`):
    - `chezmoi add ~/.zshrc`
    - `chezmoi add ~/.gitconfig`
